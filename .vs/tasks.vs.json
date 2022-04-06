@@ -5,6 +5,11 @@
       "taskLabel": "任务-hello",
       "appliesTo": "algorithm/implementByC++/hello.cpp",
       "type": "launch"
+    },
+    {
+      "taskLabel": "任务-introduce",
+      "appliesTo": "algorithm/introduce.md",
+      "type": "launch"
     }
   ]
 }
