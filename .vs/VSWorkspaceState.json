@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\algorithm",
-    "\\algorithm\\book",
-    "\\C++",
-    "\\C++\\book"
+    "\\algorithm\\implementByC++",
+    "\\algorithm\\implementByC++\\implementLibrary",
+    "\\C++"
   ],
-  "SelectedNode": "\\algorithm",
   "PreviewInSolutionExplorer": false
 }
