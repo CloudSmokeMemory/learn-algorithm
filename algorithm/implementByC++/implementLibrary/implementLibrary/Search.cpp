@@ -15,6 +15,7 @@ bool ZHR::BinarySearch::isInclusion(int k, Array searchArray)
 			endIndex = centerIndex -1;
 		}
 		else {
+			
 			startIndex = centerIndex+1;
 		}
 	}
