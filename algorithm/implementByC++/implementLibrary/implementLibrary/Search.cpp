@@ -22,3 +22,6 @@ bool ZHR::BinarySearch::isInclusion(int k, Array searchArray)
 
 	return false;
 }
+
+
+
