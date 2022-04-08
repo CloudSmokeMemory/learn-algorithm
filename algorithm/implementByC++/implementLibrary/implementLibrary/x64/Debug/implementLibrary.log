@@ -1,2 +1,4 @@
-﻿  helloWorld.cpp
-  implementLibrary.vcxproj -> D:\1_work\git\learn-algorithm\algorithm\implementByC++\implementLibrary\x64\Debug\implementLibrary.exe
+﻿  Sort.cpp
+  helloWorld.cpp
+  正在生成代码...
+D:\1_work\git\learn-algorithm\algorithm\implementByC++\implementLibrary\implementLibrary\helloWorld.cpp(34): error C4716: “findKthLargest”: 必须返回一个值
