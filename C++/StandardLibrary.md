@@ -42,6 +42,26 @@ cstddef,cstdlib,cstring常用头文件
 
 ```
 
+STL组件：容器：管理某类对象的集合、迭代器：在一个对象集合内遍历元素、算法：处理集合内的元素。
+STL基本观念：数据和操作分离。根本特性：所有组件都可以针对任意类型运作。
+容器：序列式：array,vector,deque,list,forward_list。关联式：set、mutiset、map、mutimap。无序：unordered_set、unordered_mutiset、unordered_map、unordered_mutimap。基本成员函数：begin(),end(),cbegin(),cend(),
+关联式数组
+容器适配器：根据基本容器实现的。Stack、Queue、Priority queue。
+迭代器基本操作：operator +、operator ++、operator ==\！=、operator =。每一种容器都必须提供自己的迭代器。
+迭代器的种类：向前，双向，随机访问，输入型，输出型。
+算法：不是容器类的成员函数，搭配迭代器使用的全局函数。保证区间有效，左闭右开。
+迭代器适配器：安插型(back,front,general)，串流(读写stream)，逆向(造成算法逆向操作)，搬移。
+操作型算法：任何以迭代器访问容器的算法，都无法通过迭代器调用容器类所提供的任何成员函数。关联式和无序容器不能当做操作目标。
+以函数作为算法的实参：for_each(),transform(),判断式(返回bool类型)，lambda
+函数对象：带状态的函数，每个函数对象有其自己的类型，比寻常函数快。预定义的函数对象functional
+bind：将预定义的对象和其他数值结合为一体。
+
+```
+
+## STL容器
+
+```
+
 
 
 ```
