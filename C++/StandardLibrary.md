@@ -62,6 +62,14 @@ bind：将预定义的对象和其他数值结合为一体。
 
 ```
 
-
-
+容器的共通：STL容器的核心能力(所有容器提供的都是value语义不是reference语义;元素在容器内有特定的顺序;各项操作并非绝对安全，调用者需要确保传给操作函数的实参符合条件。)。共同操作。共通类型(size_type,difference_type,value_type,reference,const_reference,iterator,const_iterator,pointer,const pointer)
+Array:比寻常array安全，效率并没有变差。不支持分配器。tuple接口。
+Vector:
+Deque:
+List:
+Forward_list:
+Set和Mutiset:
+Map和Mutimap:
+无序容器：
+各种容器的使用时机:
 ```
