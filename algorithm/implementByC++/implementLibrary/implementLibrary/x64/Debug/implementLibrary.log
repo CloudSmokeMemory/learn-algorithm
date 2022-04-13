@@ -1,4 +1,3 @@
-﻿  Sort.cpp
-  helloWorld.cpp
-  正在生成代码...
-D:\1_work\git\learn-algorithm\algorithm\implementByC++\implementLibrary\implementLibrary\helloWorld.cpp(34): error C4716: “findKthLargest”: 必须返回一个值
+﻿  helloWorld.cpp
+D:\1_work\git\learn-algorithm\algorithm\implementByC++\implementLibrary\implementLibrary\homeworkCh1.h(56): warning C4172: 返回局部变量或临时变量的地址: total
+  implementLibrary.vcxproj -> D:\1_work\git\learn-algorithm\algorithm\implementByC++\implementLibrary\x64\Debug\implementLibrary.exe
