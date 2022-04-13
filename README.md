@@ -26,6 +26,7 @@
 
 |来源|类型|介绍|补充|
 |-|-|-|-|
+|数据结构、算法与应用  C++语言描述(第二版)|书籍||著<br>Sartaj Sahni <br>译<br>王立柱 刘志红|
 |算法(第4版)|书籍|介绍基础算法的入门|著<br>Robert Sedgewick , Kevin Wayne<br>译<br>谢路云|
 |[LeetCode](https://leetcode-cn.com/)|网站|具有较多的算法题||
 
