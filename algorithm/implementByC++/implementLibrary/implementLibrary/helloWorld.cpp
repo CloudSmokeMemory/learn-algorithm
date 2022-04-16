@@ -1,12 +1,34 @@
 #include<iostream>
+#include<string>
 #include"homeworkCh1.h"
+#include"iterationMind.h"
 
 using namespace std;
 
 int main() {
 	using namespace std;
-	//int b[]{ 10,9,8,2,4,3,1,11,9,10,9,8,2,4,3,1,11,9 ,10,9,8,2,4,3,1,11,9 ,10,9,8,2,4,3,1,11,9 ,10,9,8,2,4,3,1,11,9 };
-	float b[]{10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9.0,10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9.0,10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9.0,10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9.0,10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9};
+	int order[]{ 1,2,3,4,5,6,7,8,9,10,11 };
+	
+	permutations(order, 0, 2);
+
+	for (int i : order) {
+		cout << fabonacci(i) <<" ";
+
+	}
+	cout << endl;
+
+	int k = 1;
+	cout << ackermann(k, 1) << " " << ackermann(k, 2) << " " << ackermann(k, 3) << " " << ackermann(k, 4) << " " << ackermann(k, 5) << " " << ackermann(k, 6) << " " << endl;
+
+	cout << gcd(20, 30) << endl;
+
+	int seta[]{ 1,2,3 };
+	string a[3]{ "ÎÒ","Äã", "Ëü" };
+	ShowSubSet(a);
+
+	grayCodePositionSeq(4);
+	cout << endl;
+	/*float b[]{10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9.0,10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9.0,10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9.0,10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9.0,10.0,9.0,8.0,2.0,4.0,3.0,1.0,11.0,9};
 	float c[]{0};
 	cout << count(c) << endl;
 	cout << b << ":";
@@ -77,5 +99,13 @@ int main() {
 		cout << endl;
 	}
 	delete2dArray(array2d, 5);
+
+	currency* aCurrency = new currency(signType::plus, 10, 2);
+	currency* bCurrency = new currency(signType::plus, 5, 92);
+
+	cout << *aCurrency + *bCurrency;
+	cout << *aCurrency - *bCurrency;
+	cout << *aCurrency * 23.0;
+	cout << endl;*/
 	return 0;
 }

@@ -166,3 +166,58 @@ void changeLength2D(T**& a, int oldNumberOfRows, int oldNumberOfCols, int newNum
 	delete2dArray(a, oldNumberOfRows);
 	a = temp;
 }
+
+enum class signType{plus, minus};
+
+class currency {
+public:
+	currency(signType theSign = signType::plus,
+		unsigned long theDollars = 0,
+		unsigned int theCents = 0
+	);
+	~currency() {}
+
+	void setValue(signType, unsigned long, unsigned int);
+	void setValue(double);
+	signType getSign() const {
+		if (amount < 0) return signType::minus;
+		else return signType::plus;
+	}
+	unsigned long getDollars() const {
+		if (amount < 0) return (-amount) / 100;
+		else return amount / 100;
+	}
+	unsigned int getCents() const {
+		if (amount < 0)	return -amount - getDollars() * 100;
+		else return amount - getDollars() * 100;
+	}
+	currency add(const currency&) const;
+	currency subtract(const currency& x) const;
+	currency multiply(double x) const;
+	currency divide(double x) const;
+	currency percent(double x) const;
+	 
+
+
+
+	currency& increment(const currency& x) {
+		amount += x.amount; return *this;
+	}
+	void input();
+	
+	currency operator +(const currency&) const;
+	currency& operator+=(const currency& x) {
+		amount += x.amount; return *this;
+	}
+	currency operator -(const currency&) const;
+	currency operator %(double) const;
+	currency operator *(double) const;
+	currency operator /(double) const;
+	void operator =(int);
+	void operator =(double);
+	friend ostream& operator <<(ostream&, const currency&);
+	friend istream& operator>>(istream&, currency& x);
+
+private:
+	long amount;
+};

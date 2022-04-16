@@ -1,3 +1,5 @@
 ﻿  helloWorld.cpp
-D:\1_work\git\learn-algorithm\algorithm\implementByC++\implementLibrary\implementLibrary\homeworkCh1.h(56): warning C4172: 返回局部变量或临时变量的地址: total
+  iterationMind.cpp
+D:\1_work\git\learn-algorithm\algorithm\implementByC++\implementLibrary\implementLibrary\iterationMind.cpp(24,13): warning C4244: “return”: 从“double”转换到“unsigned long”，可能丢失数据
+  正在生成代码...
   implementLibrary.vcxproj -> D:\1_work\git\learn-algorithm\algorithm\implementByC++\implementLibrary\x64\Debug\implementLibrary.exe

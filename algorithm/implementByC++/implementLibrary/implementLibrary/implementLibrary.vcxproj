@@ -21,9 +21,11 @@
   <ItemGroup>
     <ClCompile Include="helloWorld.cpp" />
     <ClCompile Include="homeworkCh1.cpp" />
+    <ClCompile Include="iterationMind.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="homeworkCh1.h" />
+    <ClInclude Include="iterationMind.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
